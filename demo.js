@@ -1,3 +1,6 @@
 //Display the output
-
-console.log("Hello World!");
+function person(firstName, lastName)
+{
+  console.log("Hello " + firstName + " " + lastName);
+}
+person("Afikile", "Msalela");
