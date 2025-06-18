@@ -1,6 +1,6 @@
 //Display the output
-function person(firstName, lastName)
+function person(firstName, lastName, age, gender)
 {
-  console.log("Hello " + firstName + " " + lastName);
+  console.log("Hello " + firstName + " " + lastName + " " + age + " " + gender);
 }
-person("Afikile", "Msalela");
+person("Afikile", "Msalela", 25, "Male");
